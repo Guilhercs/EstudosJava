@@ -1,29 +1,34 @@
 
 public class TestarVariaveis {
-	
+
 	public static void main(String[] args) {
-		//string
+		// string
 		System.out.println("Hello new test");
-		
-		//inteiro
-		int idade = 30;	
+
+		// inteiro
+		int idade = 30;
 		System.out.println("Minha idade é " + idade);
-		
-		//decimal
+
+		// decimal
 		double salario = 7650.70;
 		System.out.println("Meu salário é: " + salario);
-		
-		//divisao decimal
+
+		// divisao decimal
 		double test = 5.0 / 2;
 		System.out.println("test: " + test);
-		
-		//Numero grande
+
+		// Numero grande
 		long numeroGrande = 23265544556L;
 		System.out.println("test: " + numeroGrande);
-		
-		//Float
-		float numeroTeste = 3.14F; //ou (float) 3.14
+
+		// Float
+		float numeroTeste = 3.14F; // ou (float) 3.14
 		System.out.println("test: " + numeroTeste);
+
+		// String
+		String aleatoria = "Essa é uma string aleatoria";
+		System.out.println("test: " + aleatoria);
+
 	}
 
 }
